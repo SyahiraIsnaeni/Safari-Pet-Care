@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/addguest2"
+    tools:context=".AddGuestActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="190dp"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Name"
+                    android:textColor="#6F4F44"
+                    android:textSize="16dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:id="@+id/namepet"
+                    android:textSize="16dp"
+                    android:textColorHint="#6F4F44"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginBottom="18dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Pet"
+                    android:textColor="#6F4F44"
+                    android:textSize="16dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:id="@+id/pet"
+                    android:textSize="16dp"
+                    android:textColorHint="#6F4F44"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginBottom="18dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Gender"
+                    android:textColor="#6F4F44"
+                    android:textSize="16dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:id="@+id/genderpet"
+                    android:textSize="16dp"
+                    android:textColorHint="#6F4F44"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginBottom="18dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Owner"
+                    android:textColor="#6F4F44"
+                    android:textSize="16dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:id="@+id/owner"
+                    android:textSize="16dp"
+                    android:textColorHint="#6F4F44"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginBottom="18dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Contact"
+                    android:textColor="#6F4F44"
+                    android:textSize="16dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:id="@+id/contact"
+                    android:textSize="16dp"
+                    android:textColorHint="#6F4F44"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginBottom="18dp"
+                    android:paddingLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="Treatment"
+                    android:textColor="#6F4F44"
+                    android:textSize="16dp"
+                    android:gravity="left"
+                    android:layout_marginBottom="5dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:id="@+id/treatment"
+                    android:textSize="16dp"
+                    android:textColorHint="#6F4F44"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginBottom="18dp"
+                    android:paddingLeft="20dp"/>
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:id="@+id/addpet"
+                    android:text="Add Pet"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="250dp"
+                    android:textStyle="bold"
+                    android:textColor="#6C6A6A"
+                    android:backgroundTint="#FFC368"
+                    android:layout_marginBottom="18dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppinslight"
+                    android:text="*Treatment Details"
+                    android:textColor="#6F4F44"
+                    android:textSize="14dp"
+                    android:gravity="left"
+                    android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Daycare    = "
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Play with others, exercise, and receive attention from our staff."
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Walking     = "
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="30 min walk, GPS tracking, Detailed updates with photos."
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Grooming = "
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Nail trim, Ear cleaning, Teeth brushing, Anal glands expression, Dog hair color."
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Training    = "
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:text="Heal, Focus, Confidence building, Jumping, Sitting/Staying, Pet reactivity."
+                        android:textColor="#6F4F44"
+                        android:textSize="15dp"
+                        android:gravity="left"
+                        android:layout_marginBottom="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

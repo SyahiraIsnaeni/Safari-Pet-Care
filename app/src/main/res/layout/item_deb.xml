@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_centerInParent="true"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="425dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="425dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            card_view:cardCornerRAdius="5dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:src="@drawable/debo"
+                android:padding="5dp"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginStart="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="23dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="Debora Oktaria Lubis"
+                    android:textColor="#42354A"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="120dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:text="21120120120033"
+                    android:textColor="#42354A"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:layout_marginStart="120dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#79D6D1D1" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:padding="3dp"
+                            android:src="@drawable/birthdate"
+                            android:layout_marginStart="5dp"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"/>
+                        <TextView
+                            android:text="Birth Date"
+                            android:layout_marginStart="10dp"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:textColor="#42354A"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="Jakarta, 07 Oktober 2002"
+                        android:textColor="#42354A"
+                        android:textSize="15sp"
+                        android:layout_marginStart="47dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:src="@drawable/address"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:text="Address"
+                        android:layout_marginStart="10dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="#42354A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="Pangambatan, Samosir, Sumatera Utara"
+                    android:textColor="#42354A"
+                    android:textSize="15sp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:src="@drawable/email"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:text="Email"
+                        android:layout_marginStart="10dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="#42354A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="deboraoktarialubis@gmail.com"
+                    android:textColor="#42354A"
+                    android:textSize="15sp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:src="@drawable/animal"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+                    <TextView
+                        android:text="Favorite Animal"
+                        android:layout_marginStart="10dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="#42354A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="Cat"
+                    android:textColor="#42354A"
+                    android:textSize="15sp"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

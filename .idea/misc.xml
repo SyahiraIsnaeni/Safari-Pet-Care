@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/drawable/edit_text_background.xml" value="0.137" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/drawable/search_outline.xml" value="0.1" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout-sw600dp/activity_guest_list.xml" value="0.131640625" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_about_us.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_add_guest.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_description.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_forgot_password.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_guest_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/activity_main_page.xml" value="0.1" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_deb.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_dimsa.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_jojo.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_kha.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_layout.xml" value="0.1" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_nab.xml" value="0.17552083333333332" />
+        <entry key="..\:/Pengenalan Perangkat Bergerak/Pemrograman Perangkat Bergerak/Tugas Akhir PPB/app/src/main/res/layout/item_syahira.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

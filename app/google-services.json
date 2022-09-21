@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "590391828456",
+    "project_id": "safaripetcare-52ff5",
+    "storage_bucket": "safaripetcare-52ff5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590391828456:android:5ca973c9835cbc4225ce5d",
+        "android_client_info": {
+          "package_name": "belajar.android.safaripetcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590391828456-hvo4mkidva6qsrf28uqvg536kp2qcoj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACeRvtLsTWWGgyHYfBoFiueMhHxyKpaJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590391828456-hvo4mkidva6qsrf28uqvg536kp2qcoj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
